@@ -16,3 +16,12 @@ D:\t8project\Surat Masuk\Desktop Version\Business\bin\Debug\T8CoreEnginee.pdb
 D:\t8project\Surat Masuk\Desktop Version\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
 D:\t8project\Surat Masuk\Desktop Version\Business\obj\Debug\Business.dll
 D:\t8project\Surat Masuk\Desktop Version\Business\obj\Debug\Business.pdb
+D:\t8project\Surat Masuk\git\desktop\Business\bin\Debug\Business.dll
+D:\t8project\Surat Masuk\git\desktop\Business\bin\Debug\Business.pdb
+D:\t8project\Surat Masuk\git\desktop\Business\bin\Debug\Data.dll
+D:\t8project\Surat Masuk\git\desktop\Business\bin\Debug\T8CoreEnginee.dll
+D:\t8project\Surat Masuk\git\desktop\Business\bin\Debug\Data.pdb
+D:\t8project\Surat Masuk\git\desktop\Business\bin\Debug\T8CoreEnginee.pdb
+D:\t8project\Surat Masuk\git\desktop\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+D:\t8project\Surat Masuk\git\desktop\Business\obj\Debug\Business.dll
+D:\t8project\Surat Masuk\git\desktop\Business\obj\Debug\Business.pdb

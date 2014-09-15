@@ -471,7 +471,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\T8CoreEnginee\T8CoreEnginee.csproj">
+    <ProjectReference Include="..\..\..\..\T8CoreEnginee\T8CoreEnginee.csproj">
       <Project>{56372130-71e9-4996-aa3d-5ef97686d84d}</Project>
       <Name>T8CoreEnginee</Name>
     </ProjectReference>

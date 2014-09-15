@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{913AF7A4-06FE-4491-9959-16BFB30AB447}"
 EndProject
@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Busine
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{B6E4A353-6110-4786-8918-CCDCB2953810}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyComponent", "..\..\Komponent\MyComponent\MyComponent.csproj", "{82A3EB31-0EE7-4785-9B6B-AB54115156DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyComponent", "..\..\..\Komponent\MyComponent\MyComponent.csproj", "{82A3EB31-0EE7-4785-9B6B-AB54115156DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T8CoreEnginee", "..\..\T8CoreEnginee\T8CoreEnginee.csproj", "{56372130-71E9-4996-AA3D-5EF97686D84D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T8CoreEnginee", "..\..\..\T8CoreEnginee\T8CoreEnginee.csproj", "{56372130-71E9-4996-AA3D-5EF97686D84D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
