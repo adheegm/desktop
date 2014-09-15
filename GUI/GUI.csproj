@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{913AF7A4-06FE-4491-9959-16BFB30AB447}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.GridView, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.RadDock, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.TelerikMetroBlue, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.VisualStudio2012Dark, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Windows8, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI.Design, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikCommon, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikData, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppDefaultSetting.cs" />
+    <Compile Include="AppInit.cs" />
+    <Compile Include="Enum.cs" />
+    <Compile Include="GeneralSettings.cs" />
+    <Compile Include="GlobalFunction.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="LocalSettings.cs" />
+    <Compile Include="OdbcDataSourceManager.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UIForms\Filter\FrmFilterHistoriEditSuratKeluar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\Filter\FrmFilterHistoriEditSuratKeluar.Designer.cs">
+      <DependentUpon>FrmFilterHistoriEditSuratKeluar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\Filter\FrmFilterHistoriEditSuratMasuk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\Filter\FrmFilterHistoriEditSuratMasuk.Designer.cs">
+      <DependentUpon>FrmFilterHistoriEditSuratMasuk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\Filter\FrmFilterHistoriLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\Filter\FrmFilterHistoriLogin.Designer.cs">
+      <DependentUpon>FrmFilterHistoriLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\Filter\FrmFilterMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\Filter\FrmFilterMain.Designer.cs">
+      <DependentUpon>FrmFilterMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\Filter\FrmFilterSuratKeluar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\Filter\FrmFilterSuratKeluar.Designer.cs">
+      <DependentUpon>FrmFilterSuratKeluar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\Filter\FrmFilterUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\Filter\FrmFilterUser.Designer.cs">
+      <DependentUpon>FrmFilterUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\FrmInputTpl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\FrmInputTpl.Designer.cs">
+      <DependentUpon>FrmInputTpl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\FrmInputPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\FrmInputPassword.Designer.cs">
+      <DependentUpon>FrmInputPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\FrmLock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\FrmLock.Designer.cs">
+      <DependentUpon>FrmLock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\FrmPrintoutFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\FrmPrintoutFile.Designer.cs">
+      <DependentUpon>FrmPrintoutFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\FrmSettingNomorAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\FrmSettingNomorAgenda.Designer.cs">
+      <DependentUpon>FrmSettingNomorAgenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\History\FrmHistoryEditSuratKeluar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\History\FrmHistoryEditSuratKeluar.Designer.cs">
+      <DependentUpon>FrmHistoryEditSuratKeluar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\History\FrmHistoryEditSuratMasuk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\History\FrmHistoryEditSuratMasuk.Designer.cs">
+      <DependentUpon>FrmHistoryEditSuratMasuk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmInfoSuratMasuk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmInfoSuratMasuk.Designer.cs">
+      <DependentUpon>FrmInfoSuratMasuk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmDisposisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmDisposisi.Designer.cs">
+      <DependentUpon>FrmDisposisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmEditSuratKeluar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmEditSuratKeluar.Designer.cs">
+      <DependentUpon>FrmEditSuratKeluar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmEditSuratMasuk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmEditSuratMasuk.Designer.cs">
+      <DependentUpon>FrmEditSuratMasuk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\History\FrmHistoryLoginUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\History\FrmHistoryLoginUser.Designer.cs">
+      <DependentUpon>FrmHistoryLoginUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\History\FrmHistoryPenyelesaian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\History\FrmHistoryPenyelesaian.Designer.cs">
+      <DependentUpon>FrmHistoryPenyelesaian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\FrmLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\FrmLoading.Designer.cs">
+      <DependentUpon>FrmLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\FrmPengaturan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\FrmPengaturan.Designer.cs">
+      <DependentUpon>FrmPengaturan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmInfoLokasiSurat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmInfoLokasiSurat.Designer.cs">
+      <DependentUpon>FrmInfoLokasiSurat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmInfoPengiriman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmInfoPengiriman.Designer.cs">
+      <DependentUpon>FrmInfoPengiriman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmInfoSuratKeluar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmInfoSuratKeluar.Designer.cs">
+      <DependentUpon>FrmInfoSuratKeluar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmInputReferensiSurat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmInputReferensiSurat.Designer.cs">
+      <DependentUpon>FrmInputReferensiSurat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmInputReferensiSuratKeluar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmInputReferensiSuratKeluar.Designer.cs">
+      <DependentUpon>FrmInputReferensiSuratKeluar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmStartIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmStartIndex.Designer.cs">
+      <DependentUpon>FrmStartIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmStartIndexSuratKeluar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmStartIndexSuratKeluar.Designer.cs">
+      <DependentUpon>FrmStartIndexSuratKeluar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmSuratKeluar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmSuratKeluar.Designer.cs">
+      <DependentUpon>FrmSuratKeluar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\User\FrmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\User\FrmUser.Designer.cs">
+      <DependentUpon>FrmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\History\FrmHistoriDisposisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\History\FrmHistoriDisposisi.Designer.cs">
+      <DependentUpon>FrmHistoriDisposisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmPenyelesaian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmPenyelesaian.Designer.cs">
+      <DependentUpon>FrmPenyelesaian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmSuratMasuk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\Surat\FrmSuratMasuk.Designer.cs">
+      <DependentUpon>FrmSuratMasuk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\User\FrmTambahUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\User\FrmTambahUser.Designer.cs">
+      <DependentUpon>FrmTambahUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\User\FrmUbahHakAkses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\User\FrmUbahHakAkses.Designer.cs">
+      <DependentUpon>FrmUbahHakAkses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForms\User\FrmUbahPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\User\FrmUbahPassword.Designer.cs">
+      <DependentUpon>FrmUbahPassword.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UIForms\Filter\FrmFilterHistoriEditSuratKeluar.resx">
+      <DependentUpon>FrmFilterHistoriEditSuratKeluar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\Filter\FrmFilterHistoriEditSuratMasuk.resx">
+      <DependentUpon>FrmFilterHistoriEditSuratMasuk.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\Filter\FrmFilterHistoriLogin.resx">
+      <DependentUpon>FrmFilterHistoriLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\Filter\FrmFilterMain.resx">
+      <DependentUpon>FrmFilterMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\Filter\FrmFilterSuratKeluar.resx">
+      <DependentUpon>FrmFilterSuratKeluar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\Filter\FrmFilterUser.resx">
+      <DependentUpon>FrmFilterUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\FrmInputTpl.resx">
+      <DependentUpon>FrmInputTpl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\FrmInputPassword.resx">
+      <DependentUpon>FrmInputPassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\FrmLock.resx">
+      <DependentUpon>FrmLock.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\FrmPrintoutFile.resx">
+      <DependentUpon>FrmPrintoutFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\FrmSettingNomorAgenda.resx">
+      <DependentUpon>FrmSettingNomorAgenda.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\History\FrmHistoryEditSuratKeluar.resx">
+      <DependentUpon>FrmHistoryEditSuratKeluar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\History\FrmHistoryEditSuratMasuk.resx">
+      <DependentUpon>FrmHistoryEditSuratMasuk.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\Surat\FrmInfoSuratMasuk.resx">
+      <DependentUpon>FrmInfoSuratMasuk.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\Surat\FrmDisposisi.resx">
+      <DependentUpon>FrmDisposisi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\Surat\FrmEditSuratKeluar.resx">
+      <DependentUpon>FrmEditSuratKeluar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\Surat\FrmEditSuratMasuk.resx">
+      <DependentUpon>FrmEditSuratMasuk.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\History\FrmHistoryLoginUser.resx">
+      <DependentUpon>FrmHistoryLoginUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\History\FrmHistoryPenyelesaian.resx">
+      <DependentUpon>FrmHistoryPenyelesaian.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\FrmLoading.resx">
+      <DependentUpon>FrmLoading.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\FrmPengaturan.resx">
+      <DependentUpon>FrmPengaturan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\Surat\FrmInfoLokasiSurat.resx">
+      <DependentUpon>FrmInfoLokasiSurat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\Surat\FrmInfoPengiriman.resx">
+      <DependentUpon>FrmInfoPengiriman.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\Surat\FrmInfoSuratKeluar.resx">
+      <DependentUpon>FrmInfoSuratKeluar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\Surat\FrmInputReferensiSurat.resx">
+      <DependentUpon>FrmInputReferensiSurat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\Surat\FrmInputReferensiSuratKeluar.resx">
+      <DependentUpon>FrmInputReferensiSuratKeluar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\Surat\FrmStartIndex.resx">
+      <DependentUpon>FrmStartIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\Surat\FrmStartIndexSuratKeluar.resx">
+      <DependentUpon>FrmStartIndexSuratKeluar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\Surat\FrmSuratKeluar.resx">
+      <DependentUpon>FrmSuratKeluar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\User\FrmUser.resx">
+      <DependentUpon>FrmUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\History\FrmHistoriDisposisi.resx">
+      <DependentUpon>FrmHistoriDisposisi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\Surat\FrmPenyelesaian.resx">
+      <DependentUpon>FrmPenyelesaian.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\Surat\FrmSuratMasuk.resx">
+      <DependentUpon>FrmSuratMasuk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\User\FrmTambahUser.resx">
+      <DependentUpon>FrmTambahUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\User\FrmUbahHakAkses.resx">
+      <DependentUpon>FrmUbahHakAkses.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\User\FrmUbahPassword.resx">
+      <DependentUpon>FrmUbahPassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\T8CoreEnginee\T8CoreEnginee.csproj">
+      <Project>{56372130-71e9-4996-aa3d-5ef97686d84d}</Project>
+      <Name>T8CoreEnginee</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Business\Business.csproj">
+      <Project>{a96e4533-f2ba-4e1f-9f91-35e06b411218}</Project>
+      <Name>Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data\Data.csproj">
+      <Project>{b6e4a353-6110-4786-8918-ccdcb2953810}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

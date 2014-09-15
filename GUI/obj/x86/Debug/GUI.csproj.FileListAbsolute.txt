@@ -1,0 +1,106 @@
+D:\t8project\Surat Masuk\GUI\bin\Debug\GUI.exe.config
+D:\t8project\Surat Masuk\GUI\bin\Debug\GUI.exe
+D:\t8project\Surat Masuk\GUI\bin\Debug\GUI.pdb
+D:\t8project\Surat Masuk\GUI\bin\Debug\Business.dll
+D:\t8project\Surat Masuk\GUI\bin\Debug\Data.dll
+D:\t8project\Surat Masuk\GUI\bin\Debug\T8CoreEnginee.dll
+D:\t8project\Surat Masuk\GUI\bin\Debug\T8CoreEnginee.pdb
+D:\t8project\Surat Masuk\GUI\bin\Debug\Business.pdb
+D:\t8project\Surat Masuk\GUI\bin\Debug\Data.pdb
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\Interop.IWshRuntimeLibrary.dll
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.csproj.ResolveComReference.cache
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.Properties.Resources.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.Filter.FrmFilterHistoriEditSuratKeluar.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.Filter.FrmFilterHistoriEditSuratMasuk.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.Filter.FrmFilterHistoriLogin.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.Filter.FrmFilterMain.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.Filter.FrmFilterSuratKeluar.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.Filter.FrmFilterUser.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmInputTpl.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmInputPassword.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmLock.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmPrintoutFile.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmSettingNomorAgenda.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.History.FrmHistoryEditSuratKeluar.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.History.FrmHistoryEditSuratMasuk.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmDetailSurat.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmDisposisi.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.Surat.FrmEditSuratKeluar.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmEditSuratMasuk.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmHistoryLoginUser.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmHistoryPenyelesaian.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmLoading.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmLogin.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmMain.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmPengaturan.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.Surat.frmInfoLokasiSurat.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.Surat.FrmInfoPengiriman.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.Surat.FrmInfoSuratKeluar.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.Surat.FrmInputReferensiSurat.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.Surat.FrmInputReferensiSuratKeluar.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.Surat.FrmSuratKeluar.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmUser.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmHistoriDisposisi.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmPenyelesaian.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmSuratMasuk.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmTambahUser.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmUbahHakAkses.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.UIForms.FrmUbahPassword.resources
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.exe
+D:\t8project\Surat Masuk\GUI\obj\x86\Debug\GUI.pdb
+D:\t8project\Surat Masuk\Desktop Version\GUI\bin\Debug\GUI.exe.config
+D:\t8project\Surat Masuk\Desktop Version\GUI\bin\Debug\GUI.exe
+D:\t8project\Surat Masuk\Desktop Version\GUI\bin\Debug\GUI.pdb
+D:\t8project\Surat Masuk\Desktop Version\GUI\bin\Debug\Business.dll
+D:\t8project\Surat Masuk\Desktop Version\GUI\bin\Debug\Data.dll
+D:\t8project\Surat Masuk\Desktop Version\GUI\bin\Debug\T8CoreEnginee.dll
+D:\t8project\Surat Masuk\Desktop Version\GUI\bin\Debug\T8CoreEnginee.pdb
+D:\t8project\Surat Masuk\Desktop Version\GUI\bin\Debug\Business.pdb
+D:\t8project\Surat Masuk\Desktop Version\GUI\bin\Debug\Data.pdb
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\Interop.IWshRuntimeLibrary.dll
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.csproj.ResolveComReference.cache
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.Properties.Resources.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.Filter.FrmFilterHistoriEditSuratKeluar.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.Filter.FrmFilterHistoriEditSuratMasuk.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.Filter.FrmFilterHistoriLogin.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.Filter.FrmFilterMain.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.Filter.FrmFilterSuratKeluar.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.Filter.FrmFilterUser.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmInputTpl.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmInputPassword.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmLock.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmPrintoutFile.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmSettingNomorAgenda.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.History.FrmHistoryEditSuratKeluar.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.History.FrmHistoryEditSuratMasuk.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmDetailSurat.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmDisposisi.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.Surat.FrmEditSuratKeluar.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmEditSuratMasuk.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmHistoryLoginUser.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmHistoryPenyelesaian.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmLoading.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmLogin.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmMain.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmPengaturan.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.Surat.frmInfoLokasiSurat.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.Surat.FrmInfoPengiriman.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.Surat.FrmInfoSuratKeluar.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.Surat.FrmInputReferensiSurat.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.Surat.FrmInputReferensiSuratKeluar.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.Surat.FrmStartIndex.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.Surat.FrmStartIndexSuratKeluar.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.Surat.FrmSuratKeluar.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmUser.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmHistoriDisposisi.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmPenyelesaian.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmSuratMasuk.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmTambahUser.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmUbahHakAkses.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.UIForms.FrmUbahPassword.resources
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.exe
+D:\t8project\Surat Masuk\Desktop Version\GUI\obj\x86\Debug\GUI.pdb

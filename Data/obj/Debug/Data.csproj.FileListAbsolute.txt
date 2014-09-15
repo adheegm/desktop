@@ -1,0 +1,14 @@
+D:\t8project\Surat Masuk\Data\bin\Debug\Data.dll
+D:\t8project\Surat Masuk\Data\bin\Debug\Data.pdb
+D:\t8project\Surat Masuk\Data\bin\Debug\T8CoreEnginee.dll
+D:\t8project\Surat Masuk\Data\bin\Debug\T8CoreEnginee.pdb
+D:\t8project\Surat Masuk\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\t8project\Surat Masuk\Data\obj\Debug\Data.dll
+D:\t8project\Surat Masuk\Data\obj\Debug\Data.pdb
+D:\t8project\Surat Masuk\Desktop Version\Data\bin\Debug\Data.dll
+D:\t8project\Surat Masuk\Desktop Version\Data\bin\Debug\Data.pdb
+D:\t8project\Surat Masuk\Desktop Version\Data\bin\Debug\T8CoreEnginee.dll
+D:\t8project\Surat Masuk\Desktop Version\Data\bin\Debug\T8CoreEnginee.pdb
+D:\t8project\Surat Masuk\Desktop Version\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\t8project\Surat Masuk\Desktop Version\Data\obj\Debug\Data.dll
+D:\t8project\Surat Masuk\Desktop Version\Data\obj\Debug\Data.pdb

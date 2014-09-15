@@ -1,0 +1,284 @@
+﻿namespace GUI.UIForms
+{
+    partial class FrmHistoryPenyelesaian
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHistoryPenyelesaian));
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.gvPenyelesaian = new Telerik.WinControls.UI.RadGridView();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.lblPenyelesaian = new Telerik.WinControls.UI.RadLabel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.radCheckBox2 = new Telerik.WinControls.UI.RadCheckBox();
+            this.radCheckBox1 = new Telerik.WinControls.UI.RadCheckBox();
+            this.radLabel19 = new Telerik.WinControls.UI.RadLabel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.radButton1 = new Telerik.WinControls.UI.RadButton();
+            this.lblNomorAgenda = new Telerik.WinControls.UI.RadLabel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gvPenyelesaian)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvPenyelesaian.MasterTemplate)).BeginInit();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.lblPenyelesaian)).BeginInit();
+            this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radCheckBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radCheckBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel19)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lblNomorAgenda)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.panel4);
+            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Padding = new System.Windows.Forms.Padding(3);
+            this.panel1.Size = new System.Drawing.Size(771, 303);
+            this.panel1.TabIndex = 20;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.gvPenyelesaian);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(3, 33);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(765, 201);
+            this.panel4.TabIndex = 1;
+            // 
+            // gvPenyelesaian
+            // 
+            this.gvPenyelesaian.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gvPenyelesaian.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gvPenyelesaian.Location = new System.Drawing.Point(0, 0);
+            // 
+            // gvPenyelesaian
+            // 
+            this.gvPenyelesaian.MasterTemplate.AllowAddNewRow = false;
+            this.gvPenyelesaian.MasterTemplate.EnableAlternatingRowColor = true;
+            this.gvPenyelesaian.MasterTemplate.EnableGrouping = false;
+            this.gvPenyelesaian.Name = "gvPenyelesaian";
+            this.gvPenyelesaian.Padding = new System.Windows.Forms.Padding(3);
+            this.gvPenyelesaian.ReadOnly = true;
+            this.gvPenyelesaian.Size = new System.Drawing.Size(765, 201);
+            this.gvPenyelesaian.TabIndex = 0;
+            this.gvPenyelesaian.Text = "radGridView1";
+            this.gvPenyelesaian.ThemeName = "Windows8";
+            this.gvPenyelesaian.CellFormatting += new Telerik.WinControls.UI.CellFormattingEventHandler(this.gvPenyelesaian_CellFormatting);
+            this.gvPenyelesaian.ViewCellFormatting += new Telerik.WinControls.UI.CellFormattingEventHandler(this.gvPenyelesaian_ViewCellFormatting);
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.lblPenyelesaian);
+            this.panel3.Controls.Add(this.panel7);
+            this.panel3.Controls.Add(this.radLabel19);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel3.Location = new System.Drawing.Point(3, 234);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(765, 66);
+            this.panel3.TabIndex = 2;
+            // 
+            // lblPenyelesaian
+            // 
+            this.lblPenyelesaian.AutoSize = false;
+            this.lblPenyelesaian.BackColor = System.Drawing.Color.White;
+            this.lblPenyelesaian.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPenyelesaian.Location = new System.Drawing.Point(455, 3);
+            this.lblPenyelesaian.Name = "lblPenyelesaian";
+            this.lblPenyelesaian.Size = new System.Drawing.Size(307, 62);
+            this.lblPenyelesaian.TabIndex = 92;
+            this.lblPenyelesaian.ThemeName = "Windows8";
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.Transparent;
+            this.panel7.Controls.Add(this.radCheckBox2);
+            this.panel7.Controls.Add(this.radCheckBox1);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(252, 66);
+            this.panel7.TabIndex = 0;
+            // 
+            // radCheckBox2
+            // 
+            this.radCheckBox2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radCheckBox2.Location = new System.Drawing.Point(106, 5);
+            this.radCheckBox2.Name = "radCheckBox2";
+            this.radCheckBox2.Size = new System.Drawing.Size(135, 21);
+            this.radCheckBox2.TabIndex = 1;
+            this.radCheckBox2.Text = "Administrator table";
+            this.radCheckBox2.ToggleStateChanged += new Telerik.WinControls.UI.StateChangedEventHandler(this.radCheckBox2_ToggleStateChanged);
+            // 
+            // radCheckBox1
+            // 
+            this.radCheckBox1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radCheckBox1.Location = new System.Drawing.Point(4, 5);
+            this.radCheckBox1.Name = "radCheckBox1";
+            this.radCheckBox1.Size = new System.Drawing.Size(97, 21);
+            this.radCheckBox1.TabIndex = 0;
+            this.radCheckBox1.Text = "Autosize row";
+            this.radCheckBox1.ToggleStateChanged += new Telerik.WinControls.UI.StateChangedEventHandler(this.radCheckBox1_ToggleStateChanged);
+            // 
+            // radLabel19
+            // 
+            this.radLabel19.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radLabel19.Location = new System.Drawing.Point(305, 5);
+            this.radLabel19.Name = "radLabel19";
+            this.radLabel19.Padding = new System.Windows.Forms.Padding(2);
+            this.radLabel19.Size = new System.Drawing.Size(143, 23);
+            this.radLabel19.TabIndex = 93;
+            this.radLabel19.Text = "Penyelesaian akhir:";
+            this.radLabel19.ThemeName = "Windows8";
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.panel5);
+            this.panel2.Controls.Add(this.lblNomorAgenda);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(3, 3);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(765, 30);
+            this.panel2.TabIndex = 0;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.radButton1);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel5.Location = new System.Drawing.Point(607, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(158, 30);
+            this.panel5.TabIndex = 92;
+            // 
+            // radButton1
+            // 
+            this.radButton1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radButton1.Image = ((System.Drawing.Image)(resources.GetObject("radButton1.Image")));
+            this.radButton1.Location = new System.Drawing.Point(7, 0);
+            this.radButton1.Name = "radButton1";
+            this.radButton1.Padding = new System.Windows.Forms.Padding(2);
+            this.radButton1.Size = new System.Drawing.Size(149, 28);
+            this.radButton1.TabIndex = 8;
+            this.radButton1.Text = "&Cetak Penyelesaian";
+            this.radButton1.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            this.radButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.radButton1.ThemeName = "Windows8";
+            this.radButton1.Click += new System.EventHandler(this.radButton1_Click);
+            // 
+            // lblNomorAgenda
+            // 
+            this.lblNomorAgenda.AutoSize = false;
+            this.lblNomorAgenda.BackColor = System.Drawing.Color.White;
+            this.lblNomorAgenda.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomorAgenda.Location = new System.Drawing.Point(113, 0);
+            this.lblNomorAgenda.Name = "lblNomorAgenda";
+            this.lblNomorAgenda.Padding = new System.Windows.Forms.Padding(3);
+            this.lblNomorAgenda.Size = new System.Drawing.Size(261, 27);
+            this.lblNomorAgenda.TabIndex = 91;
+            this.lblNomorAgenda.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblNomorAgenda.ThemeName = "Windows8";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(5, 5);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(102, 17);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Nomor Agenda:";
+            // 
+            // FrmHistoryPenyelesaian
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(771, 303);
+            this.Controls.Add(this.panel1);
+            this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Name = "FrmHistoryPenyelesaian";
+            // 
+            // 
+            // 
+            this.RootElement.ApplyShapeToControl = true;
+            this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "History Penyelesaian";
+            this.ThemeName = "Windows8";
+            this.Load += new System.EventHandler(this.FrmHistoryPenyelesaian_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gvPenyelesaian.MasterTemplate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvPenyelesaian)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.lblPenyelesaian)).EndInit();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radCheckBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radCheckBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel19)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lblNomorAgenda)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        //private Telerik.WinControls.Themes.Windows8Theme windows8Theme1;
+        //private Telerik.WinControls.Themes.Windows8Theme windows8Theme2;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel4;
+        private Telerik.WinControls.UI.RadGridView gvPenyelesaian;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel7;
+        private Telerik.WinControls.UI.RadCheckBox radCheckBox2;
+        private Telerik.WinControls.UI.RadCheckBox radCheckBox1;
+        private System.Windows.Forms.Panel panel2;
+        private Telerik.WinControls.UI.RadLabel lblPenyelesaian;
+        private Telerik.WinControls.UI.RadLabel radLabel19;
+        private Telerik.WinControls.UI.RadLabel lblNomorAgenda;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel5;
+        private Telerik.WinControls.UI.RadButton radButton1;
+    }
+}
